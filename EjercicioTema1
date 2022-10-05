@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args){
+
+        String nombre = "Juan";
+        int edad = 26;
+        long numeroTelefono = 156123123;
+        float peso = 86.7f;
+        double altura = 1.86d;
+        boolean hombre = true;
+
+        System.out.println(nombre);
+        System.out.println(edad);
+        System.out.println(numeroTelefono);
+        System.out.println(peso);
+        System.out.println(altura);
+        System.out.println(hombre);
+    }
+}
