@@ -1,0 +1,17 @@
+# JavaBasicoOpenBootCamp
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner imput = new Scanner(System.in);
+        double precio = imput.nextDouble();
+
+        double precioFinal = getPrecioIVA(precio);
+        System.out.println("El precio final es :" + precioFinal);
+    }
+    static double getPrecioIVA(double precio) {
+        double IVA = 1.21d;
+        return precio * IVA;
+
+    }
+}
