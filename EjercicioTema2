@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner imput = new Scanner(System.in);
+        System.out.println("Introdusca precio sin IVA: ");
         double precio = imput.nextDouble();
 
         double precioFinal = getPrecioIVA(precio);
