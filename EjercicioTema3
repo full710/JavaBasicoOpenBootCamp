@@ -1,13 +1,20 @@
 # JavaBasicoOpenBootCamp
 
+import java.util.Scanner;
+
 public class EjercicioBucles {
     public static void main(String[] args) {
-
-
-        String[] nombres = {"Juan", "Gaston", "Esteban", "Romina",};
+        Scanner imput = new Scanner(System.in);
+        System.out.println("Ingrese Cantidad de nombres: ");
+        int CantidadNombres = imput.nextInt();
+        String nombres2;
         String nomConcatenados = "";
-        for (String nombre : nombres){
-            nomConcatenados = nomConcatenados.concat(nombre) + " ";
+        int i = 0;
+
+        while(i <= CantidadNombres){
+            nombres2 = imput.nextLine();
+            nomConcatenados = nomConcatenados.concat(nombres2) + " ";
+            i++;
         }
         System.out.print(nomConcatenados);
     }
