@@ -1,0 +1,14 @@
+# JavaBasicoOpenBootCamp
+
+public class EjercicioBucles {
+    public static void main(String[] args) {
+
+
+        String[] nombres = {"Juan", "Gaston", "Esteban", "Romina",};
+        String nomConcatenados = "";
+        for (String nombre : nombres){
+            nomConcatenados = nomConcatenados.concat(nombre) + " ";
+        }
+        System.out.print(nomConcatenados);
+    }
+}
