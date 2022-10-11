@@ -1,0 +1,13 @@
+import SmartDevice.SmartDevice;
+import SubClases.SmartPhone;
+import SubClases.SmartWatch;
+
+public class Main {
+    public static void main(String[] args){
+        SmartPhone applePhone = new SmartPhone("Apple", "Blanco", 1, true, "6 plus", "Apple A8", 1.2d,8, 16);
+        SmartWatch appleWatch = new SmartWatch("Apple" , "azul", 4, true, "Serie 6", true, true, true, true);
+        System.out.println(appleWatch);
+        System.out.println(applePhone);
+
+    }
+}
